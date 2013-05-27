@@ -25,7 +25,7 @@ php -f joomdump.phar -- --tables=content:schema,categories:data \
 
 ```bash
 php -f joomdump.phar -- --tables=categories:data#"extension='com_content'" \
-       --db=joomla --pass=r00t --user=root --host=localhost --prefix    =jos_
+       --db=joomla --pass=r00t --user=root --host=localhost --prefix=jos_
  ```
 
 Syntax of tables option
